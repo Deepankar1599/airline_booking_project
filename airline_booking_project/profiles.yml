@@ -6,28 +6,6 @@ airline_booking_project:
       http_path: /sql/1.0/warehouses/14840cf39f14531c
       schema: default
       threads: 1
-      token: dapi781359480cc7ca357f0e222fdf1fadec
-      type: databricks
-  target: dev
-dbt_tutorial_dev:
-  outputs:
-    dev:
-      catalog: dbt_tutorial_dev
-      host: dbc-0de9192d-83be.cloud.databricks.com
-      http_path: /sql/1.0/warehouses/14840cf39f14531c
-      schema: default
-      threads: 1
-      token: dapibe4b470b53b1b705f0d55c9bfde7fe81
-      type: databricks
-  target: dev
-dkg_dbt_project:
-  outputs:
-    dev:
-      catalog: dbt_tutorial_dev
-      host: dbc-0de9192d-83be.cloud.databricks.com
-      http_path: /sql/1.0/warehouses/14840cf39f14531c
-      schema: default
-      threads: 1
-      token: dapibe4b470b53b1b705f0d55c9bfde7fe81
+      token: databricks_token
       type: databricks
   target: dev
